@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="1000">
+    <meta name="description" content="HTML Forms Web Page">
+    <meta name="keyword" content="html, css, javascript, php, nodejs, sql, mysql, mongodb, angularjs, reactjs, expressjs, vuejs">
+    <meta name="author" content="Nitin Bhardwaj">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <title>Forms</title>
+    <link rel="shortcut icon" href="https://images.unsplash.com/photo-1614094082869-cd4e4b2905c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" type="image/x-icon">
+</head>
+<body>
+    <!-- HTML Forms -->
+    <h2>HTML Forms</h2>
+    <form action="action_page.php" method="post" target="_blank" accept-charset="utf-8" enctype="multipart/form-data" name="form1">
+        <fieldset>
+            <Legend>Form1</Legend>
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="fname"/>
+            <br><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lame" id="lname"/>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+
+            <label for="uname">Username:</label>
+            <input type="text" name="uname" id="uname" maxlength="16" required>
+            <br><br>
+
+            <label for="pwd">Password:</label>
+            <input type="password" name="pwd" id="pwd" maxlength="20" required>
+            <br><br>
+
+            <label for="bday">Birthday:</label>
+            <input type="date" name="bday" id="bday" min="2000-01-01" max="2023-12-01">
+            <br><br>
+
+            <label for="phno">Phone Number:</label>
+            <input type="tel" name="phno" id="phno" placeholder="1234567899" pattern="[0-9]{3}[0-9]{4}[0-9]{3}">
+            <br><br>
+
+            <label for="file">File:</label>
+            <input type="file" name="file" id="file" multiple>
+            <br><br>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" name="quantity" id="quantity" min="0" max="100" step="10">
+            <br><br>
+
+            <label for="range">Range:</label>
+            <input type="range" name="range" id="range" min="0" max="100">
+            <br><br>
+
+            <label for="">Gender:</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+            <br><br>
+
+            <label for="">Stream:</label>
+            <input type="checkbox" name="cit" id="cit">
+            <label for="cit">CIT</label>
+            <input type="checkbox" name="bca" id="bca">
+            <label for="bca">BCA</label>
+            <input type="checkbox" name="mca" id="mca">
+            <label for="mca">MCA</label>
+            <br><br>
+
+            <label for="col">Color:</label>
+            <input type="color" name="col" id="col">
+            <br><br>
+
+            <label for="year">Year:</label>
+            <select name="year" id="year">
+                <optgroup label="BCA">
+                    <option value="year1">Year 1</option>
+                    <option value="year2">Year 2</option>
+                    <option value="year3">Year 3</option>
+                </optgroup>
+                <optgroup label="MCA">
+                    <option value="year1">Year 1</option>
+                    <option value="year2" selected>Year 2</option>
+                    <option value="year3">Year 3</option>
+                </optgroup>
+            </select>
+            <br><br>
+
+            <input list="languages" name="languages">
+            <datalist id="languages">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JavaScript">
+            </datalist>
+            <br><br>
+
+            <label for="write">Write About Yourself:</label>
+            <br>
+            <textarea name="write" id="write" cols="30" rows="10">Please Wite here....</textarea>
+            <br><br>
+
+            <button type="button" onclick="alert('Hello')">Click Me</button>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            <input type="button" value="Button">
+        </fieldset>
+    </form>
+</body>
+</html>

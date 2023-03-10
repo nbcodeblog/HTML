@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="1000">
+    <meta name="description" content="HTML Images Web Page">
+    <meta name="keyword" content="html, css, javascript, php, nodejs, sql, mysql, mongodb, angularjs, reactjs, expressjs, vuejs">
+    <meta name="author" content="Nitin Bhardwaj">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <title>Images</title>
+    <link rel="shortcut icon" href="https://images.unsplash.com/photo-1614094082869-cd4e4b2905c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" type="image/x-icon">
+</head>
+<body>
+    <!-- HTML Images -->
+    <h2>HTML Images</h2>
+    <img src="https://images.unsplash.com/photo-1482192505345-5655af888cc4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="House Image" width="300" height="300">
+
+    <!-- HTML Image as a Link -->
+    <h2>HTML Image as a Link</h2>
+    <a href="https://nbcodeblog.blogspot.com" target="_blank" title="Link"><img src="https://images.unsplash.com/photo-1482192505345-5655af888cc4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="House Image" width="300" height="300"></a>
+
+    <!-- HTML Image Map -->
+    <h2>HTML Image Map</h2>
+    <img src="https://www.w3schools.com/html/workplace.jpg" alt="Gadgets" usemap="#img1">
+    <map name="img1">
+        <area shape="rect" coords="34,44,270,350" href="https://nbcodeblog.blogspot.com" alt="Laptop" target="_blank" title="Link">
+        <area shape="rect" coords="290,172,333,250" href="https://google.com" alt="Phone" target="_blank" title="Link">
+        <area shape="circle" coords="337,300,44" href="https://microsoft.com" alt="Coffe Cup" target="_blank" title="Link">
+    </map>
+    <br><br>
+    <img src="https://www.w3schools.com/html/frenchfood.jpg" alt="Foods" usemap="#img2">
+    <map name="img2">
+        <area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" href="https://apple.com" alt="Frenchfood" target="_blank" title="Link">
+    </map>
+
+    <!-- HTML Picture -->
+    <h2>HTML Picture</h2>
+    <picture>
+        <source media="(min-width: 650px)" srcset="https://images.unsplash.com/photo-1614094082869-cd4e4b2905c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60">
+        <source media="(min-width: 465px)" srcset="https://images.unsplash.com/photo-1482192505345-5655af888cc4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60">
+        <img src="https://images.unsplash.com/photo-1672651159810-05c33ac37774?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=868&q=80" alt="Mountain">
+    </picture>
+</body>
+</html>
