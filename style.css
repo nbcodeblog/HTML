@@ -1,0 +1,12 @@
+/* contents.html */
+.contab1 {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.contabwid1 {
+    width: 100%;
+    text-align: center;
+}
+.contablin1 {
+    text-decoration: none;
+}
