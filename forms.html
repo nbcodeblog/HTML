@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML Forms">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Nitin Bhardwaj">
+    <meta name="robots" content="index, follow">
+    <title>HTML Forms</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- HTML Forms -->
+    <h1>HTML Forms</h1>
+    <fieldset>
+        <legend>Form1</legend>
+        <form action="#" target="_blank" method="post" autocomplete="off" accept-charset="UTF-8" enctype="multipart/form-data" name="MyForm">
+            <label for="fname">First Name :</label>
+            <input type="text" name="fname" id="fname" value="Nitin">
+            <br><br>
+            <label for="lname">Last Name :</label>
+            <input type="text" name="lname" id="lname" value="Bhardwaj">
+            <br><br>
+            <label for="uname">Username :</label>
+            <input type="email" name="uname" id="uname" autofocus>
+            <br><br>
+            <label for="pwd">Password :</label>
+            <input type="password" name="pwd" id="pwd" maxlength="15">
+            <br><br>
+    
+            <label for="">Gender :</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+            <br><br>
+    
+            <label for="">Languages :</label>
+            <input type="checkbox" name="html" id="html">
+            <label for="html">HTML</label>
+            <input type="checkbox" name="css" id="css">
+            <label for="css">CSS</label>
+            <input type="checkbox" name="js" id="js">
+            <label for="js">JavaScript</label>
+            <br><br>
+
+            <label for="">Languages :</label>
+            <input type="checkbox" name="html" id="html" checked>
+            <label for="html">HTML</label>
+            <input type="checkbox" name="css" id="css">
+            <label for="css">CSS</label>
+            <input type="checkbox" name="js" id="js">
+            <label for="js">JavaScript</label>
+            <br><br>
+    
+            <label for="subject">Subjects :</label>
+            <select name="subject" id="subject">
+                <option value="DSA">DSA</option>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="Java">Java</option>
+            </select>
+            <br><br>
+    
+            <label for="subject">Subjects :</label>
+            <select name="subject" id="subject" size="3">
+                <option value="DSA">DSA</option>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="Java">Java</option>
+            </select>
+            <br><br>
+    
+            <label for="subject">Subjects :</label>
+            <select name="subject" id="subject" size="4" multiple>
+                <option value="DSA">DSA</option>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="Java">Java</option>
+            </select>
+            <br><br>
+    
+            <label for="subject">Subjects :</label>
+            <select name="subject" id="subject">
+                <optgroup label="Markup">
+                    <option value="DSA">HTML</option>
+                    <option value="C">XHTML</option>
+                </optgroup>
+                <optgroup label="Stylesheet">
+                    <option value="C++">CSS</option>
+                    <option value="Java">SASS</option>
+                </optgroup>
+            </select>
+            <br><br>
+    
+            <label for="">Sports :</label>
+            <input list="sport">
+            <datalist id="sport">
+                <option value="Cricket">Cricket</option>
+                <option value="Basketball">Basketball</option>
+                <option value="Football">Football</option>
+                <option value="Hockey">Hockey</option>
+            </datalist>
+            <br><br>
+    
+            <label for="col">Color :</label>
+            <input type="color" name="col" id="col">
+            <br><br>
+    
+            <label for="date">Birthday :</label>
+            <input type="date" name="date" id="date">
+            <br><br>
+    
+            <label for="date">Birthday :</label>
+            <input type="date" name="date" id="date" max="1990-01-01">
+            <br><br>
+    
+            <label for="date">Birthday :</label>
+            <input type="date" name="date" id="date" min="2010-01-01">
+            <br><br>
+
+            <label for="datetime">Date Time :</label>
+            <input type="datetime-local" name="datetime" id="datetime">
+            <br><br>
+
+            <label for="image">Image :</label>
+            <input type="image" src="nbcodeblog_image1.webp" alt="nbcodeblog Image" width="30" height="30">
+            <br><br>
+
+            <label for="file">File :</label>
+            <input type="file" name="file" id="file">
+            <br><br>
+
+            <label for="file">File :</label>
+            <input type="file" name="file" id="file" multiple>
+            <br><br>
+
+            <input type="hidden" name="MCA Data">
+
+            <label for="month">Month :</label>
+            <input type="month" name="month" id="month">
+            <br><br>
+
+            <label for="number">Number :</label>
+            <input type="number" name="number" id="number" min="1" max="5">
+            <br><br>
+
+            <label for="number">Number :</label>
+            <input type="number" name="number" id="number">
+            <br><br>
+
+            <label for="number">Number :</label>
+            <input type="number" name="number" id="number" min="0" max="100" step="10">
+            <br><br>
+
+            <label for="range">Range :</label>
+            <input type="range" name="range" id="range" min="0" max="50">
+            <br><br>
+
+            <label for="meter">Disk usage C:</label>
+            <meter id="meter" value="2" min="0" max="10">2 out of 10</meter>
+            <br><br>
+
+            <label for="meter2">Disk usage D:</label>
+            <meter id="meter2" value="0.6">60%</meter>
+            <br><br>
+
+            <label for="progress">Downloading Progress:</label>
+            <progress id="progress" value="32" max="100">32%</progress>
+            <br><br>
+
+            <label for="search">Search :</label>
+            <input type="search" name="search" id="search">
+            <br><br>
+
+            <label for="mobile">Mobile :</label>
+            <input type="tel" name="mobile" id="mobile" placeholder="123-45-678-90" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{2}" required>
+            <br><br>
+
+            <label for="time">Time :</label>
+            <input type="time" name="time" id="time">
+            <br><br>
+
+            <label for="url">URL :</label>
+            <input type="url" name="url" id="url">
+            <br><br>
+
+            <label for="url">URL :</label>
+            <input type="url" name="url" id="url" readonly>
+            <br><br>
+
+            <label for="week">Week :</label>
+            <input type="week" name="week" id="week">
+            <br><br>
+    
+            <label for="text">Write here :</label>
+            <textarea name="text" id="text" rows="5" cols="25">Please write there:</textarea>
+            <br><br>
+    
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            <input type="button" value="Click Me">
+            <input type="submit" formnovalidate="formnovalidate" value="Submit without validation">
+        </form>
+    </fieldset>
+    <br><br>
+
+    <fieldset>
+        <legend>Form2</legend>
+        <search>
+            <form action="#">
+                <input name="fsearch" id="fsearch" placeholder="Search this page">
+            </form>
+        </search>
+    </fieldset>
+</body>
+</html>

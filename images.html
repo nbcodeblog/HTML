@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML Images">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Nitin Bhardwaj">
+    <meta name="robots" content="index, follow">
+    <title>HTML Images</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- HTML Images -->
+    <h1>HTML Images</h1>
+    <!-- Absolute URL Image -->
+    <h2>Absolute URL Image</h2>
+    <img src="https://images.unsplash.com/photo-1452784444945-3f422708fe5e?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Beach Image" width="100%" height="auto" title="Image" loading="lazy">
+
+    <!-- Relative URL Image -->
+    <h2>Relative URL Image</h2>
+    <img src="nbcodeblog_image1.webp" alt="nbcodeblog Image" width="100%" height="auto" title="Image" loading="lazy">
+
+    <!-- Image as a Link -->
+    <h2>Image as a Link</h2>
+    <a href="https://nbcodeblog.com" target="_blank" title="Image Link"><img src="nbcodeblog_image1.webp" alt="nbcodeblog" width="100%" height="auto" loading="lazy"></a>
+
+    <!-- Image Maps -->
+    <h2>Image Maps</h2>
+    <img src="workplace_image1.webp" alt="Workplace Image" usemap="#image1" title="Image map" loading="lazy">
+    <map name="image1">
+        <area shape="rect" coords="34,43,274,343" href="nbcodeblog_image1.webp" alt="nbcodeblog Website" target="_blank" download>
+        <area shape="rect" coords="289,172,335,242" href="https://google.com" alt="Google" target="_blank">
+        <area shape="circle" coords="339,300,43" href="https://microsoft.com" alt="Microsoft" target="_blank">
+    </map>
+    <br><br>
+
+    <img src="frenchfood_image1.webp" alt="Frenchfood Image" usemap="#image2" title="Image map" loading="lazy">
+    <map name="image2">
+        <area shape="poly" coords="177,115,140,122,128,143,106,156,44,250,42,261,38,285,43,308,37,324,47,343,74,349,88,351,120,334,163,292,181,268,208,209,203,157,188,137" href="https://nbcodeblog.com" alt="nbcodeblog Website" target="_blank">
+    </map>
+
+    <!-- Figcaption Element -->
+    <h2>Figcaption Element</h2>
+    <figure>
+        <img src="https://images.unsplash.com/photo-1452784444945-3f422708fe5e?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Nature Image" width="100%" height="auto" title="Beach Image" loading="lazy">
+        <figcaption>Fig.1 - This is a Beach Image</figcaption>
+    </figure>
+
+    <!-- Picture Element -->
+    <h2>Picture Element</h2>
+    <!-- Bandwidth -->
+    <h3>Bandwidth</h3>
+    <picture>
+        <source media="(min-width: 650px)" srcset="nbcodeblog_image1.jpeg">
+        <source media="(min-width: 465px)" srcset="workplace_image1.webp">
+        <img src="frenchfood_image1.webp" alt="Frenchfood Image" width="100%" height="auto" title="Image" loading="lazy">
+    </picture>
+
+    <!-- Format Support -->
+    <h3>Format Support</h3>
+    <picture>
+        <source srcset="nbcodeblog_image1.jpeg">
+        <source srcset="nbcodeblog_image1.png">
+        <img src="nbcodeblog_image1.webp" alt="nbcodeblog Image" width="100%" height="auto" loading="lazy">
+    </picture>
+</body>
+</html>
