@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This Page is About HTML Introduction">
+    <meta name="keywords" content="HTML">
+    <meta name="author" content="Nitin Bhardwaj">
+    <meta name="robots" content="index, follow">
+    <title>HTML Introduction</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <style>
+        /* HTML Page Structure Style */
+        .htmldiv{
+            border: 0.1rem solid gray;
+            padding: 0.2rem;
+            background-color: lightgrey;
+        }
+        .headdiv{
+            border: 0.1rem solid gray;
+            margin: 1rem;
+            padding: 0.2rem;
+        }
+        .titlediv{
+            border: 0.1rem solid gray;
+            margin: 1rem;
+            padding: 0.2rem;
+        }
+        .bodydiv{
+            border: 0.1rem solid gray;
+            margin: 1rem;
+            padding: 0.2rem;
+        }
+        .bodypartdiv{
+            border: 0.1rem solid gray;
+            background-color: white;
+            margin: 1rem;
+        }
+        .headingdiv{
+            border: 0.1rem solid gray;
+            margin: 1rem;
+            padding: 0.2rem;
+        }
+        .paragraphdiv{
+            border: 0.1rem solid gray;
+            margin: 1rem;
+            padding: 0.2rem;
+        }
+
+        /* HTML History Style */
+        table{
+            width: 70%;
+        }
+        table,th,td{
+            border: 0.1rem solid gray;
+            border-collapse: collapse;
+            padding: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Introduction</h1>
+    <h2>What is HTML?</h2>
+    <ul>
+        <li>HTML stands for Hyper Text Markup Language.</li>
+        <li>HTML is the standard markup language for creating Web pages.</li>
+        <li>HTML describes the structure of a Web page.</li>
+        <li>HTML consists of a series of elements.</li>
+    </ul>
+
+    <h2>History of HTML</h2>
+    <table>
+        <caption>History</caption>
+        <tr>
+            <th>Year</th>
+            <th>Version</th>
+        </tr>
+        <tr>
+            <td>1989</td>
+            <td>Tim Berners-Lee invented www</td>
+        </tr>
+        <tr>
+            <td>1991</td>
+            <td>Tim Berners-Lee invented HTML</td>
+        </tr>
+        <tr>
+            <td>1993</td>
+            <td>Dave Raggett drafted HTML+</td>
+        </tr>
+        <tr>
+            <td>1997</td>
+            <td>W3C Recommendation: HTML 3.2</td>
+        </tr>
+        <tr>
+            <td>2000</td>
+            <td>W3C Recommendation: XHTML 1.0</td>
+        </tr>
+        <tr>
+            <td>2008</td>
+            <td>WHATWG HTML5 First Public Draft</td>
+        </tr>
+        <tr>
+            <td>2012</td>
+            <td>WHATWG HTML5 Living Standard</td>
+        </tr>
+        <tr>
+            <td>2014</td>
+            <td>W3C Recommendation: HTML5</td>
+        </tr>
+        <tr>
+            <td>2017</td>
+            <td>W3C Recommendation: HTML5.2</td>
+        </tr>
+    </table>
+
+    <h3>HTML Tags</h3>
+    <ul>
+        <li>HTML tag is defined by a start tag and an end tag.</li>
+    </ul>
+    <table>
+        <caption>Tags</caption>
+        <tr>
+            <th>Start Tag</th>
+            <th>End Tag</th>
+        </tr>
+        <tr>
+            <td>&lt;h1&gt;</td>
+            <td>&lt;/h1&gt;</td>
+        </tr>
+        <tr>
+            <td>&lt;p&gt;</td>
+            <td>&lt;/p&gt;</td>
+        </tr>
+    </table>
+
+    <h3>HTML Empty Tags</h3>
+    <ul>
+        <li>HTML empty tag is defined by a start tag and no end tag.</li>
+    </ul>
+    <table>
+        <caption>Empty Tags</caption>
+        <tr>
+            <th>Start Tag</th>
+            <th>End Tag</th>
+        </tr>
+        <tr>
+            <td>&lt;br&gt;</td>
+            <td>none</td>
+        </tr>
+        <tr>
+            <td>&lt;hr&gt;</td>
+            <td>none</td>
+        </tr>
+    </table>
+
+    <h3>HTML Elements</h3>
+    <ul>
+        <li>HTML element is defined by a start tag, some content, and an end tag.</li>
+    </ul>
+    <table>
+        <caption>Elements</caption>
+        <tr>
+            <th>Start Tag</th>
+            <th>Element Content</th>
+            <th>End Tag</th>
+        </tr>
+        <tr>
+            <td>&lt;h1&gt;</td>
+            <td>Heading</td>
+            <td>&lt;/h1&gt;</td>
+        </tr>
+        <tr>
+            <td>&lt;p&gt;</td>
+            <td>Paragraph</td>
+            <td>&lt;/p&gt;</td>
+        </tr>
+    </table>
+
+    <h3>HTML Empty Elements</h3>
+    <ul>
+        <li>HTML empty element is defined by a start tag, and no content, and no end tag.</li>
+    </ul>
+    <table>
+        <caption>Empty Elements</caption>
+        <tr>
+            <th>Start Tag</th>
+            <th>Element Content</th>
+            <th>End Tag</th>
+        </tr>
+        <tr>
+            <td>&lt;h1&gt;</td>
+            <td>none</td>
+            <td>none</td>
+        </tr>
+        <tr>
+            <td>&lt;p&gt;</td>
+            <td>none</td>
+            <td>none</td>
+        </tr>
+    </table>
+
+    <h2>HTML Page Structure</h2>
+    <div class="htmldiv">
+        &lt;html&gt;
+        <div class="headdiv">
+            &lt;head&gt;
+            <div class="titlediv">
+                &lt;title&gt;&lt;/title&gt;
+            </div>
+            &lt;/head&gt;
+        </div>
+        <div class="bodydiv">
+            &lt;body&gt;
+            <div class="bodypartdiv">
+                <div class="headingdiv">
+                    &lt;h1&gt;&lt;/h1&gt;
+                </div>
+                <div class="paragraphdiv">
+                    &lt;p&gt;&lt;/p&gt;
+                </div>
+            </div>
+            &lt;/body&gt;
+        </div>
+        &lt;/html&gt;
+    </div>
+
+    <h3>Page Structure Explained</h3>
+    <ul>
+        <li>&lt;!DOCTYPE html&gt; : It defines that this document is an HTML5 document.</li>
+        <li>&lt;html&gt; : It is the root element of an HTML page.</li>
+        <li>&lt;head&gt; : It contains meta information about the HTML page.</li>
+        <li>&lt;title&gt; : It specifies a title for the HTML page.</li>
+        <li>&lt;body&gt; : It defines the document's body, and is a container for all the visible contents.</li>
+        <li>&lt;h1&gt; : It defines a large heading.</li>
+        <li>&lt;p&gt; : It defines a paragraph.</li>
+    </ul>
+
+    <h3>HTML Text Editors</h3>
+    <ul>
+        <li>A text editor to write and edit code.</li>
+    </ul>
+    <table>
+        <caption>Text Editors</caption>
+        <tr>
+            <th>Name</th>
+            <th>OS</th>
+            <th>Developer</th>
+        </tr>
+        <tr>
+            <td>Notepad</td>
+            <td>Windows</td>
+            <td>Microsoft</td>
+        </tr>
+        <tr>
+            <td>TextEdit</td>
+            <td>macOS</td>
+            <td>Apple</td>
+        </tr>
+        <tr>
+            <td>GNU nano</td>
+            <td rowspan="2">Linux Command Line Interface</td>
+            <td>Benno Schulenberg</td>
+        </tr>
+        <tr>
+            <td>vim</td>
+            <td>Bram Moolenaar</td>
+        </tr>
+        <tr>
+            <td>GNOME Text Editor</td>
+            <td rowspan="4">Linux Graphical User Interface</td>
+            <td>Christian Hergert</td>
+        </tr>
+        <tr>
+            <td>Mousepad</td>
+            <td>Erik Harrison, Nick Schermer, Benedikt Meurer, Matthew Brush, Gaël Bonithon</td>
+        </tr>
+        <tr>
+            <td>Kate</td>
+            <td>KDE</td>
+        </tr>
+        <tr>
+            <td>vim</td>
+            <td>Bram Moolenaar</td>
+        </tr>
+    </table>
+
+    <h3>HTML IDE's</h3>
+    <ul>
+        <li>An IDE (Integrated Development Environment) is a program that helps you write, compile, and run code.</li>
+    </ul>
+    <table>
+        <caption>IDE's</caption>
+        <tr>
+            <th>Name</th>
+            <th>OS</th>
+            <th>Developer</th>
+        </tr>
+        <tr>
+            <td>VS Code</td>
+            <td>Cross Platform</td>
+            <td>Microsoft</td>
+        </tr>
+        <tr>
+            <td>Sublime Text</td>
+            <td>Cross Platform</td>
+            <td>Jon Skinner, Sublime HQ</td>
+        </tr>
+        <tr>
+            <td>UltraEdit</td>
+            <td>Cross Platform</td>
+            <td>Idera, Inc.</td>
+        </tr>
+        <tr>
+            <td>WebStorm</td>
+            <td>Cross Platform</td>
+            <td>JetBrains</td>
+        </tr>
+    </table>
+
+    <h3>Web Browsers</h3>
+    <ul>
+        <li>The purpose of a web browser is to read HTML documents and display them correctly.</li>
+        <li>A browser does not display the HTML tags, but uses them to determine how to display the document.</li>
+    </ul>
+    <table>
+        <caption>Browsers</caption>
+        <tr>
+            <th>Name</th>
+            <th>OS</th>
+            <th>Developer</th>
+        </tr>
+        <tr>
+            <td>Chrome</td>
+            <td>Cross Platform</td>
+            <td>Google</td>
+        </tr>
+        <tr>
+            <td>Edge</td>
+            <td>Cross Platform</td>
+            <td>Microsoft</td>
+        </tr>
+        <tr>
+            <td>Safari</td>
+            <td>iOS / macOS</td>
+            <td>Apple</td>
+        </tr>
+        <tr>
+            <td>Firefox</td>
+            <td>Cross Platform</td>
+            <td>Mozilla</td>
+        </tr>
+    </table>
+</body>
+</html>
